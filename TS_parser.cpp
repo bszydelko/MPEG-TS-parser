@@ -3,12 +3,12 @@
 #include "tsCommon.h"
 #include "tsTransportStream.h"
 
-std::ofstream log_file("../log.txt");
+std::ofstream log_file("res/log.txt");
 
 
 int main(int argc, char* argv[], char* envp[])
 {
-    const char* filename = "../example_new.ts";
+    const char* filename = "res/example_new.ts";
     FILE* TransportStreamFile;
     fopen_s(&TransportStreamFile, filename, "rb");
 
@@ -659,7 +659,7 @@ xPES_Assembler::~xPES_Assembler()
 void xPES_Assembler::Init(int32_t PID, std::string file_extension)
 {
     m_PID = PID;
-    std::string name_builder = "../PID" + std::to_string(PID) + file_extension;
+    std::string name_builder = "res/PID" + std::to_string(PID) + file_extension;
     m_Filename = name_builder.c_str();
     fopen_s(&m_File, m_Filename, "wb");
 }
