@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\MPEG TS parser AllInOne\MPEG TS parser AllInOne\TS_parser.cpp">
+    <ClCompile Include="TS_parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\MPEG TS parser AllInOne\MPEG TS parser AllInOne\tsCommon.h">
+    <ClInclude Include="tsCommon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\MPEG TS parser AllInOne\MPEG TS parser AllInOne\tsTransportStream.h">
+    <ClInclude Include="tsTransportStream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\MPEG TS parser AllInOne\MPEG TS parser AllInOne\TS_parser.cpp" />
+    <ClCompile Include="TS_parser.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\MPEG TS parser AllInOne\MPEG TS parser AllInOne\tsCommon.h" />
-    <ClInclude Include="..\MPEG TS parser AllInOne\MPEG TS parser AllInOne\tsTransportStream.h" />
+    <ClInclude Include="tsCommon.h" />
+    <ClInclude Include="tsTransportStream.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
